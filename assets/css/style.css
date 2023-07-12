@@ -619,7 +619,10 @@ a {
 }
 /* Process */
 .process {
-    margin-top: 110px;
+    margin-top: 87px;
+}
+.process__list {
+    margin-top: 81px;
 }
 .process-heading {
     position: relative;
@@ -642,8 +645,6 @@ a {
     width: 100%;
     height: 185px;
     display: flex;
-
-    /* justify-content: space-between; */
     align-items: center;
 }
 .process__number {
@@ -700,4 +701,3 @@ a {
 .process__idea-img {
     border-bottom: 3px solid #e2eddf;
 }
-
