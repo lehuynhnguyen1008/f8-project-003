@@ -798,9 +798,7 @@ a {
 .features {
     margin-top: 140px;
 }
-/* .features__top {
-    text-align: center;
-} */
+
 .features__heading {
     max-width: 520px;
     color: #152427;
@@ -988,4 +986,124 @@ a {
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.2;
+}
+/* Footer */
+.footer {
+    background: #143c3c;
+    margin-top: 102px;
+}
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 0 50px;
+}
+.form__footer {
+    max-width: 354px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #6a8383;
+}
+.footer__sign {
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+.footer__form {
+    margin-top: 25px;
+    display: inline-flex;
+}
+.footer__form-input {
+    padding: 7px 10px;
+    font-size: 2.2rem;
+    outline: none;
+    background: #143c3c;
+    border: transparent;
+    color: #fff;
+}
+.footer__form-input::placeholder {
+    color: #6a8383;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+    background: #143c3c;
+}
+.footer__form-letter {
+    width: 26px;
+    display: block;
+    margin-left: 32px;
+    cursor: pointer;
+}
+.footer__socials {
+    margin-top: 47px;
+    display: flex;
+    column-gap: 22px;
+}
+.footer-icon {
+    display: block;
+    width: 7px;
+}
+.footer__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #6a8383;
+    cursor: pointer;
+}
+.footer__icon:hover {
+    background: #a75325;
+}
+.footer-icon-2 {
+    width: 25px;
+}
+.footer__icon-ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+.footer__icon-ig2 {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+.footer__right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+
+.footer__column a {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.25;
+    color: #6a8383;
+}
+.footer__column a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.footer__active {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.55;
+}
+.copyright {
+    padding-bottom: 40px;
+    border-top: 1px solid #6a8383;
+}
+.footer__copyright {
+    margin-top: 12px;
+    color: #6a8383;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
