@@ -92,6 +92,12 @@
         <!-- Link css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!-- Link animation -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
     </head>
     <body>
         <!-- Header -->
@@ -150,7 +156,9 @@
                     <section class="hero">
                         <!-- hero media -->
                         <div class="hero__media">
-                            <h3 class="hero__heading">
+                            <h3
+                                class="hero__heading wow  animate__bounce"
+                            >
                                 We’re a creative design agency.
                             </h3>
                             <p class="hero__desc">
@@ -274,7 +282,9 @@
                     <div class="service__top">
                         <div class="service__left">
                             <span class="service__our">OUR SERVICES</span>
-                            <h3 class="service__heading section-heading">
+                            <h3
+                                class="service__heading section-heading wow  animate__backInLeft"
+                            >
                                 We offer a wide range of design services
                             </h3>
                         </div>
@@ -319,7 +329,9 @@
                     <!-- service list -->
                     <div class="service__list">
                         <!-- item 1 -->
-                        <article class="service__item">
+                        <article
+                            class="service__item wow  animate__fadeInLeftBig"
+                        >
                             <a href="#!">
                                 <figure class="service__images">
                                     <img
@@ -342,7 +354,9 @@
                         </article>
 
                         <!-- item 2 -->
-                        <article class="service__item">
+                        <article
+                            class="service__item wow  animate__fadeInDownBig"
+                        >
                             <a href="#!">
                                 <figure class="service__images">
                                     <img
@@ -365,7 +379,7 @@
                         </article>
 
                         <!-- item 3 -->
-                        <article class="service__item">
+                        <article class="service__item wow  animate__fadeInRightBig">
                             <a href="#!">
                                 <figure class="service__images">
                                     <img
@@ -905,5 +919,18 @@
                 </div>
             </section>
         </main>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script>
+            new WOW(
+                {
+                    animateClass: 'animate__animated'
+                }
+            ).init();
+        </script>
     </body>
 </html>
